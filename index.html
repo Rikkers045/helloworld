@@ -1,0 +1,69 @@
+<br>Hello World!
+</br>Test Break</br></br>
+    <script>
+        var helicopters;
+        // var obj1 = { model:"MD-500", seats:"4" };
+        // var obj2 = { model:"YOH-6A", seats:"2"}
+        helicopters =[
+            {
+                "model": "YOH-6A",
+                "discription": "Prototype version.",
+                "frame": "MD-500"
+            },
+            {
+                "model": "OH-6A",
+                "discription": "Light observation helicopter, powered by a 263 kW (317 shp) Allison T63-A5A turboshaft engine..",
+                "frame": "MD-500",
+                "entryintoservice":{
+                    "year": "1964",
+                    "month": "april"
+                }
+            },
+            {
+                "model": "YOH-6A NOTAR",
+                "discription": "Re-engined version, powered by a 298 kW (420 shp) Allison T63-A-720 turboshaft engine."
+            },
+            {
+                "model": "OH-6B",
+                "discription": "Proposed version, powered by a 313.32 kW (400 shp) Allison 25-C20 turboshaft engine, fitted with five rotor blades."
+            },
+            {
+                "model": "OH-6C",
+                "discription": "Light observation helicopter based on the OH-6A Cayuse for the JGSDF. Built by Kawasaki Heavy Industries under license in Japan."
+            },
+            {
+                "model": "OH-6J",
+                "discription": "Light observation, scout helicopter based on the Hughes Model 500D for the JGSDF. Built by Kawasaki Heavy Industries under license in Japan.[21]"
+            },
+            {
+                "model": "OH-6D",
+                "foo1": "Foo2",
+                "discription": "Instead of discontinued OH-6D, JMSDF bought some MD 500Es, named OH-6DA, for training."
+            },
+            {
+                "model": "OH-6DA",
+                "discription": "Special Operations electronic warfare, command post version."
+            },
+            {
+                "model": "MH-6B",
+                "discription": "Special Operations version."
+            },
+            {
+                "model": "TH-6B",
+                "discription": "A Navy derivative of the MD-369H, six McDonnell Douglas TH-6B Conversion-in-Lieu-of-Procurement aircraft are used as an integral part of the United States Naval Test Pilot School's test pilot training syllabus. The aircraft and associated instrumentation and avionics are used for the inflight instruction and demonstration of flying qualities, performance and missions systems flight test techniques.[22]"
+            }
+        ];
+
+        var helicopter1 = helicopters[9];
+        //document.write(obj1.model+" has "+obj1.seats+" seats unlike the "+obj2.model+" which has " +obj2.seats);
+
+        document.write(helicopter1.model);
+
+        if(helicopter1.discription != undefined) {
+            document.write(helicopter1.discription);
+        }
+        document.write(helicopter1.discription);
+
+        console.log(helicopters)
+    </script>
+</html>
